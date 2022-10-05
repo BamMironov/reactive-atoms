@@ -1,0 +1,23 @@
+{
+  "name": "@bam/reactive-atoms",
+  "version": "0.0.1",
+  "description": "Dead-simple small state management solution",
+  "main": "lib/common/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": "false",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BamMironov/reactive-atoms.git"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "LICENSE"
+  ],
+  "author": "Artem Mironov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BamMironov/reactive-atoms/issues"
+  },
+  "homepage": "https://github.com/BamMironov/reactive-atoms#readme"
+}

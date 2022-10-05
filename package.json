@@ -1,0 +1,30 @@
+{
+  "name": "@bam/reactive-atoms",
+  "version": "0.0.1",
+  "description": "Dead-simple small state management solution",
+  "repository": "git@github.com:BamMironov/reactive-atoms.git",
+  "author": "Artem Mironov mironov.bam@gmail.com",
+  "license": "MIT",
+  "type": "commonjs",
+  "keywords": [
+    "state",
+    "atom",
+    "state manager",
+    "state management",
+    "atomic"
+  ],
+  "scripts": {
+    "compile": "rm -rf dist/lib && yarn compile:es6 && yarn compile:common",
+    "compile:es6": "tsc --build tsconfig.es6.json",
+    "compile:common": "tsc --build tsconfig.common.json",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
